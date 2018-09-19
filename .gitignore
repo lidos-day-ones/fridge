@@ -9,6 +9,9 @@
 # production
 /build
 
+# config
+/src/database/config.js
+
 # misc
 .DS_Store
 .env.local

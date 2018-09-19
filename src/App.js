@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import firebase from 'firebase';
 import logo from './logo.svg';
 import './App.css';
-
-// get this from firebase.google.com
-const config = {};
+import config from './database/config';
 
 const db = firebase.initializeApp(config);
 
